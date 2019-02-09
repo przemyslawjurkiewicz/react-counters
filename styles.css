@@ -1,0 +1,36 @@
+* {
+  font-family: Open Sans;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: rgb(212, 212, 212);
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+ }
+ 
+ .counter {
+   margin: 5px;
+   }
+
+   span {
+     margin: 5px;
+     font-size: 16px;
+     font-weight: bold;
+     color: rgb(29, 76, 119);
+   }
+
+   button {
+     margin: 5px;
+     height: 40px;
+     width: 40px;
+     font-weight: bold;
+     font-size: 20px;
+   }
